@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc62d7a1-d30c-4a94-b3f7-993a92f02d4d" name="Changes" comment="refactored to a different project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="fc62d7a1-d30c-4a94-b3f7-993a92f02d4d" name="Changes" comment="refactored to a different project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +29,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HouseRobber">
     <configuration name="BuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.helloworld.practice.BuyAndSellStock" />
       <module name="Leetcode75Curated" />
@@ -49,8 +43,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.HouseRobber" />
+      <module name="Leetcode75Curated" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.BuyAndSellStock" />
       </list>
     </recent_temporary>
