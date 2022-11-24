@@ -5,7 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.util.*;
 
 public class ThreeSum {
-    public static List<List<Integer>> solve(int[] arr){
+    private static List<List<Integer>> solve(int[] arr){
         Arrays.sort(arr);
         Map<Integer,Integer> m = new HashMap<>();
         List<List<Integer>> ans = new ArrayList<>();

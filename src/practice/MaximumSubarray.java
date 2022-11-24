@@ -3,7 +3,7 @@ package practice;
 import java.util.Scanner;
 
 public class MaximumSubarray {
-    public static int solve(int [] arr){
+    private static int solve(int [] arr){
         int n = arr.length;
         int maxSum = Integer.MIN_VALUE;
         int sum = 0;

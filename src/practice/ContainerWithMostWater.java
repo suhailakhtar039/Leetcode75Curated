@@ -3,7 +3,7 @@ package practice;
 import java.util.Scanner;
 
 public class ContainerWithMostWater {
-    public static int solve(int[] arr){
+    private static int solve(int[] arr){
         int n = arr.length;
         int first = 0, last = n-1;
         int max = Math.min(arr[first],arr[last])*(last-first);

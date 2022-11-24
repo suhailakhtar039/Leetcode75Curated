@@ -3,7 +3,7 @@ package practice;
 import java.util.Scanner;
 
 public class MinimumInRotatedSortedArray {
-    public static int solve(int[] arr) {
+    private static int solve(int[] arr) {
         if (arr == null || arr.length == 0) {
             return 0;
         }

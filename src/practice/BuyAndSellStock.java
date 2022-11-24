@@ -3,7 +3,7 @@ package practice;
 import java.util.Scanner;
 
 public class BuyAndSellStock {
-    public static int solve(int []nums){
+    private static int solve(int []nums){
         int n = nums.length;
         int buy = nums[0],maxProfit = 0;
         for(int i=1; i<n; i++){

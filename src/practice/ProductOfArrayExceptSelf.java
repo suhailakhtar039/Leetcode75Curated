@@ -13,7 +13,7 @@ public class ProductOfArrayExceptSelf {
         for(int i:ans)
             System.out.print(i+" ");
     }
-    public static int[] solve(int []arr){
+    private static int[] solve(int []arr){
         int n = arr.length;
         int[] pre = new int[n];
         int[] suf = new int[n];

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MaximumProductSubarray {
     private static int ans;
 
-    public static int solve(int[] arr) {
+    private static int solve(int[] arr) {
         int n = arr.length;
         int prod = 1;
         int ans = Integer.MIN_VALUE;
