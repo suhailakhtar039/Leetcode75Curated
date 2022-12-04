@@ -55,14 +55,21 @@ class LinkedList{
 
 class LinkedListUtility{
     public ListNode reverseList(ListNode head){
-        ListNode nxt = null, prev = null, temp = head;
-        while(temp!=null){
-            nxt = temp.next;
-            temp.next = prev;
-            prev = temp;
-            temp = nxt;
+        // ListNode nxt, prev = null, temp = head;
+        // while(temp!=null){
+        //     nxt = temp.next;
+        //     temp.next = prev;
+        //     prev = temp;
+        //     temp = nxt;
+        // }
+        // return prev;
+        if(head == null || head.next == null){
+            return head;
         }
-        return prev;
+        ListNode ans = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return ans;
     }
 }
 
