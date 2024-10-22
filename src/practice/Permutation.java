@@ -18,9 +18,9 @@ public class Permutation {
         if (nums.length == temp.size()) {
             list.add(new ArrayList<>(temp));
         } else {
-            for (int i = 0; i < nums.length; i++) {
-                if (!temp.contains(nums[i])) {
-                    temp.add(nums[i]);
+            for (int num : nums) {
+                if (!temp.contains(num)) {
+                    temp.add(num);
                     solve(list, temp, nums);
                     temp.remove(temp.size() - 1);
                 }
