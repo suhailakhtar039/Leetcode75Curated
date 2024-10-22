@@ -24,7 +24,7 @@ public class Combinationsum2 {
             List<Integer> l = new ArrayList<>(list);
             // System.out.println("inside if = " + list + " l = " + l);
             ans.add(l);
-            System.out.println("ans = " + ans);
+            // System.out.println("ans = " + ans);
             return;
         }
         // System.out.println("sum = " + sum);
