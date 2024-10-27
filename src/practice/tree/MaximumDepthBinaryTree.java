@@ -1,4 +1,4 @@
-package practice.array;
+package practice.tree;
 
 import practice.TreeNode;
 
@@ -9,8 +9,7 @@ public class MaximumDepthBinaryTree {
         root.right = new TreeNode(20);
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
-        printInorder(root);
-        System.out.println();
+        printTreeInorder(root);
         int height = maxDepth(root);
         System.out.println(height);
     }
@@ -21,7 +20,11 @@ public class MaximumDepthBinaryTree {
         return ans;
     }
 
-    public static void printInorder(TreeNode root){
+    public static void printTreeInorder(TreeNode root){
+        printInorder(root);
+        System.out.println();
+    }
+    private static void printInorder(TreeNode root){
         if(root == null)return;
         printInorder(root.left);
         System.out.print(root.val + " ");
