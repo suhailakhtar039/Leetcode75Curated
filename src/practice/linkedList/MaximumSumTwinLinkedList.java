@@ -1,5 +1,7 @@
 package practice.linkedList;
 
+import practice.ListNode;
+
 public class MaximumSumTwinLinkedList {
     public static void main(String[] args) {
         ListNode head = new ListNode(5);

@@ -1,7 +1,6 @@
 package practice.linkedList;
 
-import practice.linkedList.LinkedList;
-import practice.linkedList.ListNode;
+import practice.ListNode;
 
 public class DetectCycleInLinkedList {
     private static boolean isCycle(ListNode head){

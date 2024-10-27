@@ -1,5 +1,7 @@
 package practice.linkedList;
 
+import practice.ListNode;
+
 public class RemoveNthNodeFromEnd {
     public static void main(String[] args) {
         ListNode head0 = new ListNode(1);

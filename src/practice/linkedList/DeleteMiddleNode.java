@@ -1,6 +1,6 @@
 package practice.linkedList;
 
-import practice.linkedList.ListNode;
+import practice.ListNode;
 
 public class DeleteMiddleNode {
     public static void main(String[] args) {

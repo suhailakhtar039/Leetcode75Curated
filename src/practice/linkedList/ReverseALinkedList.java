@@ -1,5 +1,7 @@
 package practice.linkedList;
 
+import practice.ListNode;
+
 import java.util.Scanner;
 
 class LinkedList{

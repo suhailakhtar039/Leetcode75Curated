@@ -1,5 +1,7 @@
 package practice.linkedList;
 
+import practice.ListNode;
+
 import static practice.linkedList.OddEvenList.print;
 
 public class ReverseLinkedList {
