@@ -16,6 +16,15 @@ class Employee1{
 }
 public class Practice {
     public static int[] findPerm(int A, long B) {
+        Scanner scanner = new Scanner(System.in);
+        int l1 = scanner.nextInt();
+        int r1 = scanner.nextInt();
+        int l2 = scanner.nextInt();
+        int r2 = scanner.nextInt();
+        if(l2 >= r1 || r2 <= l1)
+            System.out.println("YES");
+        else
+            System.out.println("NO");
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 1; i <= A; i++)
             arrayList.add(i);
@@ -55,17 +64,8 @@ public class Practice {
         e1.a = 5;
     }
     public static void main(String[] args) {
-        Employee1 e1 = new Employee1();
-        e1.a = 1;
-        Employee1 e2 = new Employee1();
-        e2.a = 1;
-        if(e1.equals(e2))
-            System.out.println("equals");
-        else{
-            System.out.println(e1.hashCode());
-            System.out.println(e2.hashCode());
-        }
-        change(e1);
-        System.out.println(e1.a);
+        String a1= "Hello";
+        a1 += "world";
+        System.out.println(a1);
     }
 }
