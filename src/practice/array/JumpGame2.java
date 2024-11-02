@@ -2,7 +2,7 @@ package practice.array;
 
 public class JumpGame2 {
     public static void main(String[] args) {
-        int[] nums = {2, 3, 0, 1, 4};
+        int[] nums = {2, 5, 0, 4};
 
         int n = nums.length;
         int ans = 0, prev = 0, curMax = 0;
